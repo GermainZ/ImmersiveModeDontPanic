@@ -9,7 +9,7 @@ public class XposedMod implements IXposedHookZygoteInit {
 
     @Override
     public void initZygote(StartupParam startupParam) throws Throwable {
-        findAndHookMethod("com.android.internal.policy.impl", null, "onPowerKeyDown",
+        findAndHookMethod("com.android.internal.policy.impl.ImmersiveModeConfirmation", null, "onPowerKeyDown",
                 boolean.class, long.class, boolean.class,
                 XC_MethodReplacement.returnConstant(null));
     }
