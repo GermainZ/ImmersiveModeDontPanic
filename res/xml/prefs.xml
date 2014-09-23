@@ -21,4 +21,8 @@
         android:title="@string/pref_hide_all_title"
         android:summary="@string/pref_hide_all_summary"
         android:defaultValue="false"/>
+    <CheckBoxPreference
+        android:key="pref_show_app_icon"
+        android:title="@string/pref_show_app_icon_title"
+        android:defaultValue="true"/>
 </PreferenceScreen>
