@@ -1,11 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.germainz.immersivemodedontpanic"
-    android:versionCode="4"
-    android:versionName="1.1.1">
-
-    <uses-sdk
-        android:minSdkVersion="19"
-        android:targetSdkVersion="19" />
+    package="com.germainz.immersivemodedontpanic">
 
     <application
         android:icon="@drawable/ic_launcher"
@@ -33,7 +27,7 @@
             android:value="true" />
         <meta-data
             android:name="xposedminversion"
-            android:value="2.0*" />
+            android:value="61" />
         <meta-data
             android:name="xposeddescription"
             android:value="Stops Android from resetting the Immersive Mode reminder flag when the user panics." />
